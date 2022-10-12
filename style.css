@@ -1,0 +1,65 @@
+body {
+  background-image: url(https://static.sciencelearn.org.nz/images/images/000/003/176/embed/FIR_ITV_RuralFireRisk_Weather_CloudySky_123RF_901534.jpg?1522314128);
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  background-size: cover;
+}
+iframe {
+  /* border: 5px solid wheat; */
+  /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
+
+  justify-items: right;
+  margin-left: 500px;
+  margin-bottom: 100px;
+  height: 400px;
+  width: 500px;
+}
+#city {
+  width: 250px;
+  height: 40px;
+}
+
+button {
+  background-color: white;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+}
+p {
+  display: flex;
+}
+#weather {
+  display: flex;
+  width: max-content;
+  gap: 10px;
+  justify-content: center;
+  margin: auto;
+}
+#weather > div {
+  gap: 10px;
+  margin: auto;
+  background-image: url();
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main {
+  background-color: #80808023;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+button {
+  background-color: black;
+  font-size: large;
+  color: white;
+}
+p {
+  font-style: italic;
+  font-weight: bold;
+}
